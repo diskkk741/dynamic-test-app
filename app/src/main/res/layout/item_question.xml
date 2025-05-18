@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soru"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnOptionA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A şıkkı" />
+
+    <Button
+        android:id="@+id/btnOptionB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B şıkkı" />
+
+    <Button
+        android:id="@+id/btnOptionC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C şıkkı" />
+
+    <Button
+        android:id="@+id/btnOptionD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D şıkkı" />
+
+    <TextView
+        android:id="@+id/txtExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Açıklama"
+        android:textColor="#666666"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
